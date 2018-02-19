@@ -52,9 +52,9 @@ boolean text2 = WebUI.verifyTextPresent('Incorrect Username or Password', false)
 assert text2 == true
 
 WebUI.focus(input_login);
-WebUI.setText(input_login, 'luca.bottoni')
+WebUI.setText(input_login, 'xxxxx)
 WebUI.focus(input_pwd);
-WebUI.setText(input_pwd, 'N.azionale')
+WebUI.setText(input_pwd, 'xxxxxx')
 
 //WebUI.doubleClick(findTestObject('GhibliLoginPage/LoginButton'))
 WebUI.sendKeys(findTestObject('Object Repository/GhibliLoginPage/input_password'), Keys.chord(Keys.ENTER))
